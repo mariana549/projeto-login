@@ -89,7 +89,7 @@ form input {
 
 }
 
-#entrar {
+form > input[type=subimit] {
     display: block;
     width: 100%;
     background-color: var(--cor04);
@@ -98,9 +98,10 @@ form input {
     text-align: center;
     border: 2px solid var(--cor04);
     font-weight: bold;
+    cursor: pointer;
 }
 
-#entrar:hover {
+form > input[type=subimit]:hover {
 
     background-color: var(--cor03);
     color: var(--cor04);
