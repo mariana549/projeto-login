@@ -4,20 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="/estilos/media-query.css">
     <title>Login</title>
 </head>
 <body>
-    <main>
-        <section id="login"> 
-            <div id="imagem">
+    <main>            
 
-            </div>
-            <div id="formulario">
+
+        <section id="login"> 
+                <div id="imagem">
+
+                </div>            
+                <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e podeer fazeer as configurações no seu ambiente. </p>
-                <form action="login.php" method="post">
-                    
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente. </p>
+                <form action="login.php" method="post" autocomplete="off">
+                    <P>
+                        <label for="imail">e-mail</label>
+                        <input type="email" name="mail" id="imail" placeholder="Seu E-mail" autocomplete="email">
+                    </P>
+                    <P>
+                        <label for="isenha">senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="new-password">
+                    </P>
+                    <p>
+                        <input type="submit" value="Entrar" id="entrar">
+                    </p>
+                    <p>
+                        <button type="submit" id="esqueci">Esqueci minha senha &#x2709</button>
+                    </p>
                 </form>
             </div>
         </section>

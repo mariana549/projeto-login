@@ -8,6 +8,113 @@
  #50D4F2
 */
 
+:root {
+    --cor01: #42208C;
+    --cor02: #322073;
+    --cor03: #202359;
+    --cor04: #b495e0;
+    --cor06: #69b0c0;
 
+}
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
 
+body {
+    font-size: 1em;
+    background-color: var(--cor01);
+
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;  
+
+    padding: 10px;
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000092;
+}
+
+div#imagem {
+    background: url(/imagens/arte.jpg) center center no-repeat;
+    background-size: cover;
+    margin: -10px;
+    width: 250px;
+    height: 200px;
+
+}
+
+section div#formulario h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+section  div#formulario > P{
+    font-size: 0.9em;    
+
+}
+
+form p {
+    background-color: var(--cor02);
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+form input {
+    background-color: var(--cor04);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#entrar {
+    display: block;
+    width: 100%;
+    background-color: var(--cor04);
+    color: var(--cor03);
+    padding: 8px;
+    text-align: center;
+    border: 2px solid var(--cor04);
+    font-weight: bold;
+}
+
+#entrar:hover {
+
+    background-color: var(--cor03);
+    color: var(--cor04);
+}
+
+#esqueci {
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid var(--cor04);
+    text-align: center;
+    font-weight: bold;
+}
+
+#esqueci:hover {
+    background-color: var(--cor03);
+    color: var(--cor04);
+}
