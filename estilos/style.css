@@ -49,13 +49,16 @@ section {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 0px 10px #00000092;
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
     background: url(/imagens/arte.jpg) center center no-repeat;
     background-size: cover;
     margin: -10px;
-    width: 250px;
+    width: 110%;
     height: 200px;
 
 }
