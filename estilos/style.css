@@ -68,29 +68,41 @@ section div#formulario h1{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+ 
 
-section  div#formulario > P{
-    font-size: 0.8em;    
-
-}
-
-form p.campo {
+form div.campo {
     display: block;
     background-color: var(--cor02);
-    color: white;
     width: 100%;
     height: 40px;    
     margin-top: 5px;
     border-radius: 5px;
     font-size: 0.9em;
+    border: 2px solid var(--cor02);
 }
 
-form p.campo input {
+form div.campo input {
     background-color: var(--cor04);
-    
-    height: 40px;
     border-radius: 5px;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 6px;
+    padding: 4px;
+    transform: translateY(-10px);
+    transform: tr;
+}
 
+form div.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
