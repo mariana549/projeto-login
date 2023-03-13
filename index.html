@@ -21,22 +21,17 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente. </p>
                 <form action="login.php" method="post" autocomplete="off">
-                    <P>
-                        <span class="material-icons">person</span>
-                        <label for="imail">e-mail</label>
+                    <p class="campo">
+                        
+                        <label for="imail"><span class="material-icons">person</span></label>
                         <input type="email" name="mail" id="imail" placeholder="Seu E-mail" autocomplete="email" maxlength="30" required>
-                    </P>
-                    <P>
-                        <span class="material-icons">van_key</span>
-                        <label for="isenha">senha</label>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="new-password" required  minlength="8" maxlength="20" value="10">
-                    </P>
-                    <p>
+                </p>
+                    <p class="campo">
+                        <label for="isenha"><span class="material-icons">van_key</span></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="new-password" required  minlength="8" maxlength="20">
+                    </p>
                         <input type="submit" value="Entrar" id="entrar">
-                    </p>
-                    <p>
-                        <button type="submit" id="esqueci">Esqueci minha senha &#x2709</button>
-                    </p>
+                        <a href="#" class="botao">Esqueci minha senha &#x2709</a>
                 </form>
             </div>
         </section>
