@@ -55,7 +55,10 @@ section {
 }
 
 div#imagem {
-    background: url(/imagens/arte.jpg) center center no-repeat;
+    /* background: url(/imagens/arte.jpg) center center no-repeat; */
+    background-image: url(/imagens/arte.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     margin: -10px;
     width: 110%;
