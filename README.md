@@ -4,6 +4,7 @@
 
 O resultado do projeto foi um site bonito e funcional.
 O site pode ser acessado no seguinte endereço: [Projeto Login](https://mariana549.github.io/projeto-login/).
+!!! Obs: por algum modivo que eu não conseguir resolver a imagemdo background não quer aparecer nesse link.
 
 ## 📝 Descrição
 
